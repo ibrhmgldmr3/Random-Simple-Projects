@@ -58,7 +58,7 @@ def send_whatsapp_message(contact, message):
         print(f"Failed to send message to {contact}: {e}")
 
 # Mesaj gönderme
-send_whatsapp_message("Suleyman Bm", "Merhaba! Bu bir test mesajıdır. -Sulonun Kucuk Sulosu")
+send_whatsapp_message("Kişi Adi", "Merhaba! Bu bir test mesajıdır. -Sulonun Kucuk Sulosu")
 
 # Tarayıcıyı kapat
 driver.quit()
